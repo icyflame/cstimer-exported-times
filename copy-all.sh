@@ -1,4 +1,4 @@
-cp ~/Downloads/cstimer* ./
+mv ~/Downloads/cstimer* ./
 counter=0;
 for i in `ls cstimer*`; do
 	mv $i "`date '+%Y-%m-%d-%H-%M-%S'`-$counter.txt"
